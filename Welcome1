@@ -1,1 +1,9 @@
-print('Hello World')
+a = input('What is your name?')
+a2 = 'Hello, '+a+'. Would you like to play a game?'
+b = input(a2)
+
+if a == 'Devon':
+    print('Devon is awesome')
+else:
+    print('You may want to play, but I don't')
+    
